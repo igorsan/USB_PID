@@ -1,0 +1,15 @@
+#define	IDI_ICON1	101
+#define	IDI_ICON2	102
+#define CM_CONECTAR	103 
+#define CM_ENVIA	104
+#define CM_RECIBE	105
+#define CM_SET		106
+#define CM_GET		107
+
+#define IDD_DIALOGBAR	1001
+#define	IDC_TEXTLEFT	1002
+#define	IDC_TEXTRIGTH	1003
+#define IDC_STATICVEL	1004
+#define IDC_VELGRAPH	1005
+#define ID_SPLITTER		1006
+#define ID_STATUSBAR	1007

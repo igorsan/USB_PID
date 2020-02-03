@@ -1,0 +1,24 @@
+#include <windows.h>
+#include "resource.h"
+
+
+IDI_ICON1	ICON	"grande.ico"
+IDI_ICON2	ICON	"pequeño.ico"
+
+
+
+Menu MENU
+BEGIN
+   POPUP "&Principal"
+      BEGIN
+         MENUITEM "&conectar", CM_CONECTAR
+         MENUITEM SEPARATOR
+         MENUITEM "&set", CM_SET
+		 MENUITEM SEPARATOR
+         MENUITEM "&pid", CM_GET
+         MENUITEM SEPARATOR
+         MENUITEM "&identificacion", CM_ENVIA
+		 MENUITEM SEPARATOR
+         MENUITEM "&escalon", CM_RECIBE
+      END
+END
